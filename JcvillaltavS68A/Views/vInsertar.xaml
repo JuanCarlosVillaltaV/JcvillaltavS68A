@@ -23,7 +23,15 @@
 
         <Button x:Name="btnGuardar"
                 Text="Guardar"
-                Clicked="btnGuardar_Clicked"/>
+                Clicked="btnGuardar_Clicked"
+                WidthRequest="100"
+HeightRequest="40"
+HorizontalOptions="Center"
+VerticalOptions="Center"
+BackgroundColor="#3498db"
+TextColor="White"
+CornerRadius="10"
+                />
         
 
     </VerticalStackLayout>

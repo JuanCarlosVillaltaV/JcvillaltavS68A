@@ -30,4 +30,12 @@ public partial class vEstudiante : ContentPage
     {
         Navigation.PushAsync(new vInsertar());
     }
+
+    private void lvEstudiantes_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+    {
+        //Seleccionado , capture todas la propiedades
+        var objEstudiante = (Estudiante)e.SelectedItem;
+        //Envio los datos
+        Navigation.PushAsync(new vActElim(objEstudiante));
+    }
 }

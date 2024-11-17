@@ -8,6 +8,8 @@
          Text="SEMANA6 8A - Consumo de servicio web - GET"
          FontSize="20"
          HorizontalTextAlignment="Center"/>
+        
+        
 
 
         <Grid Margin="10" Padding="10" BackgroundColor="GreenYellow">
@@ -48,7 +50,8 @@
 
         </Grid>
 
-        <ListView x:Name="lvEstudiantes">
+        <ListView x:Name="lvEstudiantes" 
+                  ItemSelected="lvEstudiantes_ItemSelected">
                     
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -98,9 +101,18 @@
 
         </ListView>
 
-        <Button x:Name="btnInsertar"
-               Text="Insertar"
-               Clicked="btnInsertar_Clicked"/>
+        <Button  x:Name="btnInsertar"
+                 Text="Insertar"
+                  Clicked="btnInsertar_Clicked"
+                  WidthRequest="100"
+                  HeightRequest="40"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"
+                  BackgroundColor="#3498db"
+                  TextColor="White"
+                  CornerRadius="10"/>
+                
+                
 
 
 

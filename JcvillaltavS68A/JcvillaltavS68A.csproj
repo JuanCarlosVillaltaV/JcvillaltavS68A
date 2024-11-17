@@ -64,6 +64,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\vActElim.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\vEstudiante.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
