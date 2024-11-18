@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JcvillaltavS68A.Models
 {
-    internal class Estudiante
+   public class Estudiante
     {
         public int codigo { get; set; }
         public string nombre { get; set; }
